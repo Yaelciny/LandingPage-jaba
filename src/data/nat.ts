@@ -121,6 +121,15 @@ export const navLinks: NavLink[] = [
   { id: "contacto", label: "Contacto", href: "#contacto" },
 ];
 
+export const siteData = {
+  logoBlanco: "/images/logoblanco.webp",
+  logoNegro: "/images/logo.webp",
+  brand: {
+    name: "JABA – Soluciones en Aluminio, Cristal y Carpintería",
+  },
+  navLinks,
+};
+
 export const bannerSlides: BannerSlide[] = [
   {
     id: "banner-1",
