@@ -1,26 +1,112 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+/* ============================================================
+   JABA – Design System
+   High-contrast grayscale: aluminum & glass aesthetic
+   ============================================================ */
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
+  --font-sans: var(--font-inter);
   --font-mono: var(--font-geist-mono);
+
+  /* Brand Colors – Aluminum & Glass palette */
+  --color-carbon: #1a1a1a;
+  --color-carbon-light: #2a2a2a;
+  --color-charcoal: #333333;
+  --color-graphite: #4a4a4a;
+  --color-steel: #6b6b6b;
+  --color-silver: #a0a0a0;
+  --color-silver-light: #c8c8c8;
+  --color-platinum: #e5e5e5;
+  --color-pearl: #f0f0f0;
+  --color-glass: rgba(255, 255, 255, 0.08);
+  --color-glass-strong: rgba(255, 255, 255, 0.15);
+  --color-accent: #d4d4d4;
+  --color-accent-warm: #b8a080;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #ffffff;
+  --foreground: #1a1a1a;
 }
 
+/* ---- Smooth scroll ---- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ---- Base body ---- */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-inter, "Inter", system-ui, -apple-system, sans-serif);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ---- Text selection ---- */
+::selection {
+  background-color: var(--color-charcoal);
+  color: white;
+}
+
+/* ---- Scrollbar ---- */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-pearl);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-silver);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-steel);
+}
+
+/* ---- Utility classes ---- */
+.section-padding {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+/* ---- Decorative line ---- */
+.accent-line {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--color-charcoal), var(--color-silver));
+}
+
+.accent-line-light {
+  width: 60px;
+  height: 3px;
+  background: linear-gradient(90deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+}
+
+/* ---- Glass card ---- */
+.glass-card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* ---- Gradient overlays ---- */
+.gradient-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.7) 100%
+  );
 }
