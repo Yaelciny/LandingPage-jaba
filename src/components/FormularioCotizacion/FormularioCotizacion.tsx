@@ -61,7 +61,7 @@ export default function FormularioCotizacion() {
                   type="email"
                   required
                   placeholder={formLabels.emailPlaceholder}
-                  className="w-full border border-platinum bg-white px-5 py-4 text-sm text-carbon outline-none transition-all placeholder:text-silver focus:border-charcoal focus:ring-1 focus:ring-charcoal/20"
+                  className="w-full rounded-xl border border-platinum bg-white px-5 py-4 text-sm text-carbon outline-none transition-all placeholder:text-silver focus:border-charcoal focus:ring-1 focus:ring-charcoal/20"
                 />
               </div>
 
@@ -78,7 +78,7 @@ export default function FormularioCotizacion() {
                   required
                   rows={5}
                   placeholder={formLabels.messagePlaceholder}
-                  className="w-full resize-none border border-platinum bg-white px-5 py-4 text-sm text-carbon outline-none transition-all placeholder:text-silver focus:border-charcoal focus:ring-1 focus:ring-charcoal/20"
+                  className="w-full resize-none rounded-xl border border-platinum bg-white px-5 py-4 text-sm text-carbon outline-none transition-all placeholder:text-silver focus:border-charcoal focus:ring-1 focus:ring-charcoal/20"
                 />
               </div>
 
@@ -87,7 +87,7 @@ export default function FormularioCotizacion() {
                 type="submit"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
-                className="w-full bg-carbon py-4 text-sm font-bold tracking-widest text-white uppercase transition-colors hover:bg-charcoal"
+                className="w-full rounded-full bg-carbon py-4 text-sm font-bold tracking-widest text-white uppercase shadow-md transition-all hover:bg-charcoal hover:shadow-lg"
               >
                 {formLabels.submitText}
               </motion.button>

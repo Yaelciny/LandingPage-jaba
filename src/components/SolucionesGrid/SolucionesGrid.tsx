@@ -58,7 +58,7 @@ export default function SolucionesGrid() {
               <motion.div
                 whileHover={{ y: -6, scale: 1.02 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                className="group relative overflow-hidden border border-platinum bg-white p-8 transition-shadow hover:shadow-xl hover:shadow-black/5"
+                className="group relative overflow-hidden rounded-2xl border border-platinum/80 bg-white p-8 shadow-md transition-all duration-500 hover:shadow-xl hover:shadow-black/10 hover:border-charcoal/30"
               >
                 {/* Top accent line */}
                 <div className="absolute top-0 left-0 h-[2px] w-0 bg-gradient-to-r from-charcoal to-silver transition-all duration-500 group-hover:w-full" />

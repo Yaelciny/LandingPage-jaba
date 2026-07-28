@@ -40,7 +40,7 @@ export default function Contacto() {
 
               {/* Email */}
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center bg-pearl text-graphite">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-pearl text-graphite shadow-sm">
                   <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
@@ -60,7 +60,7 @@ export default function Contacto() {
 
               {/* Phones */}
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center bg-pearl text-graphite">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-pearl text-graphite shadow-sm">
                   <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
@@ -69,12 +69,12 @@ export default function Contacto() {
                   <h4 className="mb-1 text-sm font-bold tracking-wide text-carbon uppercase">
                     Teléfonos
                   </h4>
-                  <div className="space-y-1">
-                    {contactInfo.phones.map((phone, i) => (
+                  <div className="flex flex-col gap-1">
+                    {contactInfo.phones.map((phone) => (
                       <a
-                        key={i}
-                        href={`tel:${phone.replace(/\s/g, "")}`}
-                        className="block text-sm text-graphite transition-colors hover:text-carbon"
+                        key={phone}
+                        href={`tel:${phone.replace(/\s+/g, "")}`}
+                        className="text-sm text-graphite transition-colors hover:text-carbon"
                       >
                         {phone}
                       </a>
@@ -85,7 +85,7 @@ export default function Contacto() {
 
               {/* Social links */}
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center bg-pearl text-graphite">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-pearl text-graphite shadow-sm">
                   <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
                   </svg>
@@ -102,7 +102,7 @@ export default function Contacto() {
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label={link.name}
-                        className="flex h-10 w-10 items-center justify-center border border-platinum text-steel transition-all hover:border-carbon hover:bg-carbon hover:text-white"
+                        className="flex h-10 w-10 items-center justify-center rounded-full border border-platinum text-steel transition-all hover:border-carbon hover:bg-carbon hover:text-white"
                       >
                         {link.icon === "facebook" && (
                           <svg className="h-4 w-4" fill="currentColor" viewBox="0 0 24 24">
@@ -129,7 +129,7 @@ export default function Contacto() {
 
           {/* Map */}
           <AnimatedSection direction="right" delay={0.15}>
-            <div className="h-full min-h-[400px] overflow-hidden border border-platinum bg-pearl">
+            <div className="h-full min-h-[400px] overflow-hidden rounded-2xl border border-platinum/80 bg-pearl shadow-lg">
               <iframe
                 src={contactInfo.mapEmbedUrl}
                 width="100%"

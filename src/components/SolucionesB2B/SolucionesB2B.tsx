@@ -91,7 +91,7 @@ export default function SolucionesB2B() {
                 <motion.div
                   whileHover={{ y: -6 }}
                   transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                  className="group relative h-full border border-white/10 bg-white/5 p-8 backdrop-blur-sm transition-all hover:border-white/25 hover:bg-white/10"
+                  className="group relative h-full rounded-2xl border border-white/10 bg-white/5 p-8 shadow-lg backdrop-blur-sm transition-all hover:border-white/25 hover:bg-white/10"
                 >
                   {/* Icon */}
                   <div className="mb-6 text-silver-light transition-colors group-hover:text-white">
@@ -127,7 +127,7 @@ export default function SolucionesB2B() {
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
                     transition={{ delay: i * 0.08 }}
-                    className="flex items-center gap-3 border border-white/15 bg-white/5 px-6 py-3 backdrop-blur-sm"
+                    className="flex items-center gap-3 rounded-full border border-white/15 bg-white/5 px-6 py-3 shadow-sm backdrop-blur-sm"
                   >
                     <span className="text-silver-light">
                       {advantageIcons[adv.icon || ""] || advantageIcons["file-check"]}

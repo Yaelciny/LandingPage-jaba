@@ -52,7 +52,7 @@ export default function QuienesSomos() {
                 {servicesList.map((svc: Service) => (
                   <div
                     key={svc.id}
-                    className="flex items-center gap-3 border-l-2 border-platinum py-2 pl-4 transition-all hover:border-charcoal"
+                    className="flex items-center gap-3 rounded-xl border border-platinum/60 bg-pearl/40 px-4 py-3 shadow-xs transition-all hover:border-charcoal/30 hover:shadow-sm"
                   >
                     <svg
                       className="h-4 w-4 shrink-0 text-steel"
@@ -70,7 +70,7 @@ export default function QuienesSomos() {
 
               <a
                 href="#contacto"
-                className="mt-8 inline-flex items-center gap-2 bg-carbon px-8 py-4 text-sm font-bold tracking-wider text-white uppercase transition-colors hover:bg-charcoal"
+                className="mt-8 inline-flex items-center gap-2 rounded-full bg-carbon px-8 py-4 text-sm font-bold tracking-wider text-white uppercase shadow-md transition-all hover:bg-charcoal hover:shadow-lg"
               >
                 Contáctanos
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -129,7 +129,7 @@ export default function QuienesSomos() {
               </AnimatePresence>
 
               {/* Featured Project Image */}
-              <div className="mt-8 relative aspect-[16/9] overflow-hidden rounded-sm border border-platinum shadow-sm">
+              <div className="mt-8 relative aspect-[16/9] overflow-hidden rounded-2xl border border-platinum/80 shadow-lg">
                 <Image
                   src="/images/proyectos/fachadas/fachada-11.webp"
                   alt="Proyecto representativo JABA"

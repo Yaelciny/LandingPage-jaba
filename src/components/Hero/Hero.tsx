@@ -53,7 +53,7 @@ export default function Hero() {
   };
 
   return (
-    <section id="inicio" className="relative h-screen w-full overflow-hidden">
+    <section id="inicio" className="relative h-screen w-full overflow-hidden bg-black">
       {/* Background slides */}
       <AnimatePresence initial={false} custom={direction} mode="popLayout">
         <motion.div
@@ -64,7 +64,7 @@ export default function Hero() {
           animate="center"
           exit="exit"
           transition={{ duration: 0.9, ease: [0.32, 0.72, 0, 1] }}
-          className="absolute inset-0"
+          className="absolute inset-0 bg-black"
         >
           <Image
             src={slide.backgroundImage}
@@ -123,7 +123,7 @@ export default function Hero() {
                 >
                   <a
                     href={slide.ctaHref || "#contacto"}
-                    className="inline-flex items-center gap-2 bg-white px-8 py-4 text-sm font-bold tracking-wider text-carbon uppercase transition-all hover:bg-platinum hover:shadow-lg hover:shadow-white/10"
+                    className="inline-flex items-center gap-2 rounded-full bg-white px-8 py-4 text-sm font-bold tracking-wider text-carbon uppercase transition-all hover:bg-platinum hover:shadow-lg hover:shadow-white/10"
                   >
                     {slide.ctaText}
                     <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -132,7 +132,7 @@ export default function Hero() {
                   </a>
                   <a
                     href="#quienes-somos"
-                    className="inline-flex items-center border border-white/30 px-8 py-4 text-sm font-medium tracking-wider text-white uppercase backdrop-blur-sm transition-all hover:border-white/60 hover:bg-white/10"
+                    className="inline-flex items-center rounded-full border border-white/30 px-8 py-4 text-sm font-medium tracking-wider text-white uppercase backdrop-blur-sm transition-all hover:border-white/60 hover:bg-white/10"
                   >
                     Más información
                   </a>

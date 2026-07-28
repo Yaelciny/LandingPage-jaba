@@ -19,13 +19,13 @@ export default function TrabajosResidenciales() {
           />
         </AnimatedSection>
 
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {residentialWorks.map((work: ResidentialWork, i: number) => (
             <AnimatedSection key={work.id} delay={i * 0.08}>
               <motion.div
                 whileHover={{ scale: 1.03 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                className="group relative aspect-[4/3] cursor-pointer overflow-hidden"
+                className="group relative aspect-[4/3] cursor-pointer overflow-hidden rounded-2xl border border-white/10 shadow-lg transition-all duration-500 hover:shadow-2xl hover:border-white/30"
               >
                 <Image
                   src={work.image}

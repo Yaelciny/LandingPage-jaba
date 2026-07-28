@@ -116,7 +116,6 @@ export const navLinks: NavLink[] = [
   { id: "inicio", label: "Inicio", href: "#inicio" },
   { id: "quienes-somos", label: "Quiénes Somos", href: "#quienes-somos" },
   { id: "productos", label: "Productos", href: "#productos" },
-  { id: "carpinteria", label: "Carpintería", href: "#carpinteria" },
   { id: "soluciones", label: "Soluciones", href: "#soluciones" },
   { id: "contacto", label: "Contacto", href: "#contacto" },
 ];
@@ -210,33 +209,9 @@ export const jabaSolutions: JabaSolution[] = [
 
 export const residentialWorks: ResidentialWork[] = [
   {
-    id: "rw-fachada-1",
-    title: "Fachadas Residenciales",
+    id: "rw-fachadas",
+    title: "Fachadas",
     image: "/images/proyectos/fachadas/fachada-3.webp",
-    category: "fachadas",
-  },
-  {
-    id: "rw-fachada-2",
-    title: "Fachadas Integrales de Cristal",
-    image: "/images/proyectos/fachadas/fachada-1.webp",
-    category: "fachadas",
-  },
-  {
-    id: "rw-fachada-3",
-    title: "Fachadas Arquitectónicas",
-    image: "/images/proyectos/fachadas/fachada-4.webp",
-    category: "fachadas",
-  },
-  {
-    id: "rw-fachada-4",
-    title: "Fachadas Contemporáneas",
-    image: "/images/proyectos/fachadas/fachada-7.webp",
-    category: "fachadas",
-  },
-  {
-    id: "rw-fachada-5",
-    title: "Fachadas con Barandal y Cristal",
-    image: "/images/proyectos/fachadas/fachada-10.webp",
     category: "fachadas",
   },
   {
@@ -268,18 +243,6 @@ export const residentialWorks: ResidentialWork[] = [
     title: "Pergolados Exteriores",
     image: "/images/proyectos/pergolados/pergolado-1.webp",
     category: "pergolados",
-  },
-  {
-    id: "rw-cristal-templado",
-    title: "Sistemas de Cristal Templado",
-    image: "/images/proyectos/cristal-templado/cristal-1.webp",
-    category: "cristal-templado",
-  },
-  {
-    id: "rw-carpinteria",
-    title: "Carpintería Residencial",
-    image: "/images/proyectos/carpinteria/carpinteria-1.jpeg",
-    category: "carpinteria",
   },
 ];
 
@@ -421,13 +384,6 @@ export const productCategories: ProductCategory[] = [
     slug: "abatibles",
     image: "/images/proyectos/puertas-abatibles/abatible-1.webp",
     description: "Puertas abatibles de aluminio con diseño premium.",
-  },
-  {
-    id: "pc-carpinteria",
-    name: "Carpintería",
-    slug: "carpinteria",
-    image: "/images/proyectos/carpinteria/carpinteria-2.jpeg",
-    description: "Servicios especializados de carpintería de alta calidad.",
   },
 ];
 

@@ -25,7 +25,7 @@ export default function ProductosGrid() {
               <motion.div
                 whileHover={{ y: -4 }}
                 transition={{ type: "spring", stiffness: 300, damping: 20 }}
-                className="group relative aspect-[3/4] cursor-pointer overflow-hidden"
+                className="group relative aspect-[3/4] cursor-pointer overflow-hidden rounded-2xl border border-white/10 shadow-lg transition-all duration-500 hover:shadow-2xl hover:border-white/30"
               >
                 <Image
                   src={cat.image}
