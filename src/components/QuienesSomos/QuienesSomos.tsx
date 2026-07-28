@@ -131,7 +131,7 @@ export default function QuienesSomos() {
               {/* Featured Project Image */}
               <div className="mt-8 relative aspect-[16/9] overflow-hidden rounded-2xl border border-platinum/80 shadow-lg">
                 <Image
-                  src="/images/proyectos/fachadas/fachada-11.webp"
+                  src="/images/proyectos/fachadas/fachada-11.jpeg"
                   alt="Proyecto representativo JABA"
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-105"

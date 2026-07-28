@@ -36,7 +36,7 @@ export default function Filosofia() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/proyectos/fachadas/fachada-7.webp"
+          src="/images/proyectos/fachadas/fachada-7.jpeg"
           alt="Fachada de proyecto JABA"
           fill
           className="object-cover"

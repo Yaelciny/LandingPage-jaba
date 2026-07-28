@@ -17,7 +17,7 @@ export default function CalidadISO() {
       {/* Background image */}
       <div className="absolute inset-0">
         <Image
-          src="/images/proyectos/fachadas/fachada-8.webp"
+          src="/images/proyectos/fachadas/fachada-8.jpeg"
           alt="Calidad ISO 9001"
           fill
           className="object-cover"
