@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Container from "@/src/components/ui/Container";
 import SectionTitle from "@/src/components/ui/SectionTitle";
 import AnimatedSection from "@/src/components/ui/AnimatedSection";
@@ -31,7 +32,18 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export default function Filosofia() {
   return (
-    <section className="section-padding relative overflow-hidden bg-carbon text-white">
+    <section className="section-padding relative overflow-hidden text-white">
+      {/* Background image */}
+      <div className="absolute inset-0">
+        <Image
+          src="/images/proyectos/fachadas/fachada-7.webp"
+          alt="Fachada de proyecto JABA"
+          fill
+          className="object-cover"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-carbon/90" />
+      </div>
       {/* Background pattern */}
       <div className="pointer-events-none absolute inset-0 opacity-5">
         <div

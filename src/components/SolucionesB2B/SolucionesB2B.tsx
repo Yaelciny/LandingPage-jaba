@@ -65,7 +65,7 @@ export default function SolucionesB2B() {
       {/* Hero-style background */}
       <div className="absolute inset-0">
         <Image
-          src="/images/soluciones-bg.jpg"
+          src="/images/proyectos/fachadas/fachada-5.webp"
           alt="Soluciones B2B"
           fill
           className="object-cover"

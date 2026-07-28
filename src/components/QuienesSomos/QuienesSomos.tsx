@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { motion, AnimatePresence } from "motion/react";
 import Container from "@/src/components/ui/Container";
 import SectionTitle from "@/src/components/ui/SectionTitle";
@@ -126,6 +127,22 @@ export default function QuienesSomos() {
                   </div>
                 </motion.div>
               </AnimatePresence>
+
+              {/* Featured Project Image */}
+              <div className="mt-8 relative aspect-[16/9] overflow-hidden rounded-sm border border-platinum shadow-sm">
+                <Image
+                  src="/images/proyectos/fachadas/fachada-11.webp"
+                  alt="Proyecto representativo JABA"
+                  fill
+                  className="object-cover transition-transform duration-700 hover:scale-105"
+                  sizes="(max-width: 1024px) 100vw, 50vw"
+                />
+                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-carbon/90 to-transparent p-4">
+                  <span className="text-xs font-semibold tracking-wider text-white uppercase">
+                    Arquitectura y Diseño en Aluminio y Cristal
+                  </span>
+                </div>
+              </div>
             </div>
           </AnimatedSection>
         </div>
