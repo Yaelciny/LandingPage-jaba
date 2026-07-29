@@ -56,13 +56,16 @@ body {
 ::-webkit-scrollbar {
   width: 8px;
 }
+
 ::-webkit-scrollbar-track {
   background: var(--color-pearl);
 }
+
 ::-webkit-scrollbar-thumb {
   background: var(--color-silver);
   border-radius: 4px;
 }
+
 ::-webkit-scrollbar-thumb:hover {
   background: var(--color-steel);
 }
@@ -90,7 +93,7 @@ body {
 .accent-line-light {
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, rgba(255,255,255,0.8), rgba(255,255,255,0.2));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
 }
 
 /* ---- Glass card ---- */
@@ -103,10 +106,8 @@ body {
 
 /* ---- Gradient overlays ---- */
 .gradient-overlay {
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.6) 0%,
-    rgba(0, 0, 0, 0.3) 50%,
-    rgba(0, 0, 0, 0.7) 100%
-  );
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.3) 50%,
+      rgba(0, 0, 0, 0.7) 100%);
 }

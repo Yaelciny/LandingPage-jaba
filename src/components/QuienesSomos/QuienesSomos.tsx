@@ -89,11 +89,10 @@ export default function QuienesSomos() {
                   <button
                     key={tab.key}
                     onClick={() => setActiveTab(tab.key)}
-                    className={`relative px-6 py-4 text-sm font-semibold tracking-wide uppercase transition-colors ${
-                      activeTab === tab.key
+                    className={`relative px-6 py-4 text-sm font-semibold tracking-wide uppercase transition-colors ${activeTab === tab.key
                         ? "text-carbon"
                         : "text-silver hover:text-graphite"
-                    }`}
+                      }`}
                   >
                     {tab.label}
                     {activeTab === tab.key && (

@@ -68,7 +68,7 @@ export default function Navbar() {
           >
             <div className="flex flex-col">
               <Image
-                src={scrolled ? siteData.logoNegro : siteData.logoBlanco}
+                src={scrolled || open ? siteData.logoNegro : siteData.logoBlanco}
                 alt={siteData.brand.name}
                 width={150}
                 height={50}

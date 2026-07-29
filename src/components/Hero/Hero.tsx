@@ -148,16 +148,14 @@ export default function Hero() {
                 key={i}
                 onClick={() => goTo(i)}
                 aria-label={`Ir al slide ${i + 1}`}
-                className={`group relative h-1 transition-all duration-500 ${
-                  i === current ? "w-12" : "w-6"
-                }`}
+                className={`group relative h-1 transition-all duration-500 ${i === current ? "w-12" : "w-6"
+                  }`}
               >
                 <span
-                  className={`absolute inset-0 rounded-full transition-all duration-500 ${
-                    i === current
+                  className={`absolute inset-0 rounded-full transition-all duration-500 ${i === current
                       ? "bg-white"
                       : "bg-white/30 group-hover:bg-white/60"
-                  }`}
+                    }`}
                 />
                 {i === current && (
                   <motion.span
