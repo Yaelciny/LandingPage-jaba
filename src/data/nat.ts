@@ -121,8 +121,8 @@ export const navLinks: NavLink[] = [
 ];
 
 export const siteData = {
-  logoBlanco: "/images/logoblanco.webp",
-  logoNegro: "/images/logo.webp",
+  logoBlanco: "/images/logo-blanco.png",
+  logoNegro: "/images/logo-negro.png",
   brand: {
     name: "JABA – Soluciones en Aluminio, Cristal y Carpintería",
   },
@@ -217,19 +217,19 @@ export const residentialWorks: ResidentialWork[] = [
   {
     id: "rw-puertas-ventanas",
     title: "Puertas y Ventanas",
-    image: "/images/proyectos/puertas/puertas-1.jpeg",
+    image: "/images/proyectos/puertas/puertas-4.jpg",
     category: "puertas-ventanas",
   },
   {
     id: "rw-canceles",
     title: "Canceles de Baño",
-    image: "/images/proyectos/canceles/cancel-1.jpeg",
+    image: "/images/proyectos/canceles/canceles-de-banio-15.jpeg",
     category: "canceles",
   },
   {
     id: "rw-domos",
     title: "Domos y Techos de Cristal",
-    image: "/images/proyectos/domos/domo-1.jpeg",
+    image: "/images/proyectos/domos/domos-7.png",
     category: "domos",
   },
   {
@@ -241,7 +241,7 @@ export const residentialWorks: ResidentialWork[] = [
   {
     id: "rw-pergolados",
     title: "Pergolados Exteriores",
-    image: "/images/proyectos/pergolados/pergolado-1.jpeg",
+    image: "/images/proyectos/pergolados/pergolado-6.jpg",
     category: "pergolados",
   },
 ];
@@ -326,14 +326,14 @@ export const productCategories: ProductCategory[] = [
     id: "pc-ventanas",
     name: "Ventanas",
     slug: "ventanas",
-    image: "/images/proyectos/puertas/puertas-2.jpeg",
+    image: "/images/proyectos/puertas/ventanas-1.jpg",
     description: "Ventanas de aluminio de alta calidad con diseño moderno.",
   },
   {
     id: "pc-puertas",
     name: "Puertas",
     slug: "puertas",
-    image: "/images/proyectos/puertas/puertas-3.jpeg",
+    image: "/images/proyectos/puertas/puertas-5.jpg",
     description: "Puertas de aluminio resistentes y elegantes.",
   },
   {
@@ -354,7 +354,7 @@ export const productCategories: ProductCategory[] = [
     id: "pc-fachadas",
     name: "Fachadas",
     slug: "fachadas",
-    image: "/images/proyectos/fachadas/fachada-2.jpeg",
+    image: "/images/proyectos/fachadas/fachada-15.jpeg",
     description: "Fachadas integrales de aluminio y cristal.",
   },
   {
@@ -368,7 +368,7 @@ export const productCategories: ProductCategory[] = [
     id: "pc-divisiones",
     name: "Divisiones de oficina",
     slug: "divisiones",
-    image: "/images/proyectos/divisiones/division-1.jpeg",
+    image: "/images/proyectos/divisiones/division-2.jpeg",
     description: "Divisiones modernas para espacios de oficina.",
   },
   {
@@ -382,7 +382,7 @@ export const productCategories: ProductCategory[] = [
     id: "pc-abatibles",
     name: "Puertas abatibles",
     slug: "abatibles",
-    image: "/images/proyectos/puertas-abatibles/abatible-1.jpeg",
+    image: "/images/proyectos/puertas-abatibles/abatible-3.jpeg",
     description: "Puertas abatibles de aluminio con diseño premium.",
   },
 ];

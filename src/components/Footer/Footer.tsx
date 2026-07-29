@@ -19,11 +19,11 @@ export default function Footer() {
             {/* Brand column */}
             <div className="lg:col-span-1">
               <Image
-                src="/images/logoblanco.webp"
+                src="/images/logo-blanco.png"
                 alt={companyInfo.name}
                 width={140}
                 height={47}
-                className="mb-6 h-12 w-auto"
+                className="mb-6 h-40 w-auto"
               />
               <p className="mb-6 text-sm leading-relaxed text-silver">
                 {companyInfo.tagline}

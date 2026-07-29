@@ -49,13 +49,12 @@ export default function Navbar() {
         initial={{ y: -80 }}
         animate={{ y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-          open
-            ? "bg-background"
-            : scrolled
-              ? "bg-background/90 backdrop-blur-md"
-              : "bg-transparent"
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${open
+          ? "bg-background"
+          : scrolled
+            ? "bg-background/90 backdrop-blur-md"
+            : "bg-transparent"
+          }`}
       >
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
           {/* Logo */}
@@ -71,10 +70,10 @@ export default function Navbar() {
               <Image
                 src={scrolled ? siteData.logoNegro : siteData.logoBlanco}
                 alt={siteData.brand.name}
-                width={120}
-                height={40}
+                width={150}
+                height={50}
                 priority
-                className="h-12 w-auto object-contain"
+                className="h-20 w-auto object-contain"
               />
             </div>
           </motion.a>
@@ -92,13 +91,12 @@ export default function Navbar() {
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: index * 0.1 }}
-                className={`relative text-sm font-medium tracking-wide transition-colors after:absolute after:bottom-[-4px] after:left-0 after:h-[1.5px] after:w-0 after:bg-foreground after:transition-all after:duration-300 hover:after:w-full ${
-                  open
+                className={`relative text-sm font-medium tracking-wide transition-colors after:absolute after:bottom-[-4px] after:left-0 after:h-[1.5px] after:w-0 after:bg-foreground after:transition-all after:duration-300 hover:after:w-full ${open
+                  ? "text-neutral-800"
+                  : scrolled
                     ? "text-neutral-800"
-                    : scrolled
-                      ? "text-neutral-800"
-                      : "text-white"
-                }`}
+                    : "text-white"
+                  }`}
               >
                 {link.label}
               </motion.a>
@@ -127,33 +125,30 @@ export default function Navbar() {
             >
               <motion.span
                 animate={open ? { rotate: 45, y: 7 } : { rotate: 0, y: 0 }}
-                className={`block h-[2px] w-6 ${
-                  open
+                className={`block h-[2px] w-6 ${open
+                  ? "bg-foreground"
+                  : scrolled
                     ? "bg-foreground"
-                    : scrolled
-                      ? "bg-foreground"
-                      : "bg-white"
-                }`}
+                    : "bg-white"
+                  }`}
               />
               <motion.span
                 animate={open ? { opacity: 0 } : { opacity: 1 }}
-                className={`block h-[2px] w-6 ${
-                  open
+                className={`block h-[2px] w-6 ${open
+                  ? "bg-foreground"
+                  : scrolled
                     ? "bg-foreground"
-                    : scrolled
-                      ? "bg-foreground"
-                      : "bg-white"
-                }`}
+                    : "bg-white"
+                  }`}
               />
               <motion.span
                 animate={open ? { rotate: -45, y: -7 } : { rotate: 0, y: 0 }}
-                className={`block h-[2px] w-6 ${
-                  open
+                className={`block h-[2px] w-6 ${open
+                  ? "bg-foreground"
+                  : scrolled
                     ? "bg-foreground"
-                    : scrolled
-                      ? "bg-foreground"
-                      : "bg-white"
-                }`}
+                    : "bg-white"
+                  }`}
               />
             </button>
           </div>
