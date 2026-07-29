@@ -153,8 +153,8 @@ export default function Hero() {
               >
                 <span
                   className={`absolute inset-0 rounded-full transition-all duration-500 ${i === current
-                      ? "bg-white"
-                      : "bg-white/30 group-hover:bg-white/60"
+                    ? "bg-white"
+                    : "bg-white/30 group-hover:bg-white/60"
                     }`}
                 />
                 {i === current && (
