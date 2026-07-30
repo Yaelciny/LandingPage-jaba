@@ -22,7 +22,7 @@ export default function Contacto() {
             <div className="space-y-8">
               {/* Address */}
               <div className="flex items-start gap-4">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center bg-pearl text-graphite">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-pearl text-graphite">
                   <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                     <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
@@ -137,7 +137,7 @@ export default function Contacto() {
                 style={{ border: 0, minHeight: "400px" }}
                 allowFullScreen
                 loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
+                referrerPolicy="strict-origin-when-cross-origin"
                 title="Ubicación de JABA"
               />
             </div>

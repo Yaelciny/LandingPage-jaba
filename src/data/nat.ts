@@ -445,24 +445,24 @@ export const contactInfo: ContactInfo = {
     {
       id: "sl-facebook",
       name: "Facebook",
-      url: "https://facebook.com/jabaaluminiosycristales",
+      url: "https://www.facebook.com/solucionesjaba26/?rdid=7eA8Ds6KIuBkrIwU",
       icon: "facebook",
     },
     {
       id: "sl-instagram",
       name: "Instagram",
-      url: "https://instagram.com/jabaaluminiosycristales",
+      url: "https://www.instagram.com/solucionesjabamx/?hl=es-la",
       icon: "instagram",
     },
     {
       id: "sl-tiktok",
       name: "TikTok",
-      url: "https://tiktok.com/@jabaaluminiosycristales",
+      url: "https://www.tiktok.com/@soluciones_jaba1",
       icon: "tiktok",
     },
   ],
   mapEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3733.066889685769!2d-103.3469!3d20.6364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDM4JzExLjAiTiAxMDPCsDIwJzQ4LjgiVw!5e0!3m2!1ses!2smx!4v1",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4429.648222349855!2d-103.3749249!3d20.6156163!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428adb21e3b6f83%3A0x61ba14825ecdacbc!2sSoluciones%20JABA%2C%20Aluminios%20y%20Cristales.%20Domos%2C%20Canceles%20de%20Ba%C3%B1o%2C%20Barandales%2C%20Ventanas%2C%20Puertas%20corredizas!5e0!3m2!1ses-419!2smx!4v1785454235318!5m2!1ses-419!2smx",
 };
 
 export const footerSections: FooterSection[] = [

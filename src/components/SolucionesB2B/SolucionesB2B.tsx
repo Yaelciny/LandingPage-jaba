@@ -143,7 +143,7 @@ export default function SolucionesB2B() {
                 href="#contacto"
                 whileHover={{ scale: 1.04 }}
                 whileTap={{ scale: 0.97 }}
-                className="mt-12 inline-flex items-center gap-2 bg-white px-10 py-4 text-sm font-bold tracking-wider text-carbon uppercase transition-colors hover:bg-platinum"
+                className="rounded-full mt-12 inline-flex items-center gap-2 bg-white px-10 py-4 text-sm font-bold tracking-wider text-carbon uppercase transition-colors hover:bg-platinum"
               >
                 Cotiza tu proyecto
                 <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
