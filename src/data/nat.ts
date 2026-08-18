@@ -136,7 +136,7 @@ export const bannerSlides: BannerSlide[] = [
     subtitle: "Soluciones arquitectónicas de vanguardia",
     description:
       "Diseñamos e instalamos soluciones integrales en aluminio, carpintería y cristal para proyectos residenciales y comerciales.",
-    backgroundImage: "/images/proyectos/fachadas/fachada-7.jpeg",
+    backgroundImage: "/images/proyectos/fachadas/fachada-12.jpg",
     ctaText: "Cotiza ahora",
     ctaHref: "#contacto",
   },
@@ -146,7 +146,7 @@ export const bannerSlides: BannerSlide[] = [
     subtitle: "Más de 10 años de experiencia",
     description:
       "Fabricamos productos con los más altos estándares de calidad, garantizando diseños vanguardistas y precios accesibles.",
-    backgroundImage: "/images/proyectos/fachadas/fachada-8.jpeg",
+    backgroundImage: "/images/proyectos/fachadas/fachada-20.jpeg",
     ctaText: "Conócenos",
     ctaHref: "#quienes-somos",
   },
@@ -156,7 +156,7 @@ export const bannerSlides: BannerSlide[] = [
     subtitle: "Soluciones completas para tu proyecto",
     description:
       "Ofrecemos una amplia gama de productos en aluminio, cristal y carpintería para toda clase de construcciones y remodelaciones.",
-    backgroundImage: "/images/proyectos/fachadas/fachada-2.jpeg",
+    backgroundImage: "/images/proyectos/fachadas/fachadas-26.jpg",
     ctaText: "Ver productos",
     ctaHref: "#productos",
   },
