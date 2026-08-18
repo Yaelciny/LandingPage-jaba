@@ -19,7 +19,7 @@ export default function ProductosGrid() {
           />
         </AnimatedSection>
 
-        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+        <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {productCategories.map((cat: ProductCategory, i: number) => (
             <AnimatedSection key={cat.id} delay={i * 0.06}>
               <motion.div
@@ -32,7 +32,8 @@ export default function ProductosGrid() {
                   alt={cat.name}
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
-                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 20vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                  quality={90}
                 />
 
                 {/* Overlay */}

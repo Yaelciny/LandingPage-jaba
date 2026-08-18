@@ -90,8 +90,8 @@ export default function QuienesSomos() {
                     key={tab.key}
                     onClick={() => setActiveTab(tab.key)}
                     className={`relative px-6 py-4 text-sm font-semibold tracking-wide uppercase transition-colors ${activeTab === tab.key
-                        ? "text-carbon"
-                        : "text-silver hover:text-graphite"
+                      ? "text-carbon"
+                      : "text-silver hover:text-graphite"
                       }`}
                   >
                     {tab.label}
@@ -130,7 +130,7 @@ export default function QuienesSomos() {
               {/* Featured Project Image */}
               <div className="mt-8 relative aspect-[16/9] overflow-hidden rounded-2xl border border-platinum/80 shadow-lg">
                 <Image
-                  src="/images/proyectos/fachadas/fachada-11.jpeg"
+                  src="/images/proyectos/fachadas/fachadas-26.jpg"
                   alt="Proyecto representativo JABA"
                   fill
                   className="object-cover transition-transform duration-700 hover:scale-105"
