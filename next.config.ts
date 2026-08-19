@@ -1,8 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  trailingSlash: true,
+  output: 'export',
+
   images: {
-    qualities: [75, 90],
+    unoptimized: true,
   },
 };
 
