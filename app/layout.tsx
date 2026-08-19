@@ -8,7 +8,7 @@ const inter = Inter({
   display: "swap",
 });
 
-const SITE_URL = "https://www.tudominio.com"; // TODO: Reemplazar con tu dominio real
+const SITE_URL = "https://ventanasdealuminio.mx";
 
 export const viewport: Viewport = {
   themeColor: "#1a2744",
