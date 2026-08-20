@@ -121,8 +121,8 @@ export const navLinks: NavLink[] = [
 ];
 
 export const siteData = {
-  logoBlanco: "/images/logo-blanco.png",
-  logoNegro: "/images/logo-negro.png",
+  logoBlanco: "/images/logo-blanco.webp",
+  logoNegro: "/images/logo-negro.webp",
   brand: {
     name: "JABA – Soluciones en Aluminio, Cristal y Carpintería",
   },
@@ -136,7 +136,7 @@ export const bannerSlides: BannerSlide[] = [
     subtitle: "Soluciones arquitectónicas de vanguardia",
     description:
       "Diseñamos e instalamos soluciones integrales en aluminio, carpintería y cristal para proyectos residenciales y comerciales.",
-    backgroundImage: "/images/proyectos/fachadas/fachada-12.jpg",
+    backgroundImage: "/images/proyectos/fachadas/fachada-12.webp",
     ctaText: "Cotiza ahora",
     ctaHref: "#contacto",
   },
@@ -146,7 +146,7 @@ export const bannerSlides: BannerSlide[] = [
     subtitle: "Más de 10 años de experiencia",
     description:
       "Fabricamos productos con los más altos estándares de calidad, garantizando diseños vanguardistas y precios accesibles.",
-    backgroundImage: "/images/proyectos/fachadas/fachada-20.jpeg",
+    backgroundImage: "/images/proyectos/fachadas/fachada-20.webp",
     ctaText: "Conócenos",
     ctaHref: "#quienes-somos",
   },
@@ -156,7 +156,7 @@ export const bannerSlides: BannerSlide[] = [
     subtitle: "Soluciones completas para tu proyecto",
     description:
       "Ofrecemos una amplia gama de productos en aluminio, cristal y carpintería para toda clase de construcciones y remodelaciones.",
-    backgroundImage: "/images/proyectos/fachadas/fachadas-26.jpg",
+    backgroundImage: "/images/proyectos/fachadas/fachadas-26.webp",
     ctaText: "Ver productos",
     ctaHref: "#productos",
   },
@@ -211,37 +211,37 @@ export const residentialWorks: ResidentialWork[] = [
   {
     id: "rw-fachadas",
     title: "Fachadas de araña",
-    image: "/images/proyectos/fachadas/fachadas-25.jpg",
+    image: "/images/proyectos/fachadas/fachadas-25.webp",
     category: "fachadas",
   },
   {
     id: "rw-puertas-ventanas",
     title: "Puertas corredizas",
-    image: "/images/proyectos/puertas/puertas-6.jpg",
+    image: "/images/proyectos/puertas/puertas-6.webp",
     category: "puertas-ventanas",
   },
   {
     id: "rw-canceles",
     title: "Canceles de Baño",
-    image: "/images/proyectos/canceles/cancel.jpg",
+    image: "/images/proyectos/canceles/cancel.webp",
     category: "canceles",
   },
   {
     id: "rw-domos",
     title: "Domos de Cristal templado",
-    image: "/images/proyectos/domos/domos-4.jpg",
+    image: "/images/proyectos/domos/domos-4.webp",
     category: "domos",
   },
   {
     id: "rw-pasamanos",
     title: "Pasamanos",
-    image: "/images/proyectos/pasamanos/pasamanos-4.jpg",
+    image: "/images/proyectos/pasamanos/pasamanos-4.webp",
     category: "pasamanos",
   },
   {
     id: "rw-pergolados",
     title: "Pergolados Exteriores",
-    image: "/images/proyectos/pergolados/pergolado-6.jpg",
+    image: "/images/proyectos/pergolados/pergolado-6.webp",
     category: "pergolados",
   },
 ];
@@ -326,49 +326,49 @@ export const productCategories: ProductCategory[] = [
     id: "pc-ventanas",
     name: "Ventanas",
     slug: "ventanas",
-    image: "/images/proyectos/puertas/ventanas-2.jpg",
+    image: "/images/proyectos/puertas/ventanas-2.webp",
     description: "Ventanas de aluminio de alta calidad con diseño moderno.",
   },
   {
     id: "pc-domos",
     name: "Domos",
     slug: "domos",
-    image: "/images/proyectos/domos/domos-6.jpg",
+    image: "/images/proyectos/domos/domos-6.webp",
     description: "Domos de policarbonato y cristal para máxima iluminación.",
   },
   {
     id: "pc-canceles",
     name: "Canceles de baño",
     slug: "canceles",
-    image: "/images/proyectos/canceles/cancel-4.jpg",
+    image: "/images/proyectos/canceles/cancel-4.webp",
     description: "Canceles de baño modernos y funcionales.",
   },
   {
     id: "pc-pergolados",
     name: "Pergolados",
     slug: "pergolados",
-    image: "/images/proyectos/pergolados/pergolado-1.jpeg",
+    image: "/images/proyectos/pergolados/pergolado-1.webp",
     description: "Pergolados elegantes para exteriores.",
   },
   {
     id: "pc-divisiones",
     name: "Divisiones de oficina",
     slug: "divisiones",
-    image: "/images/proyectos/divisiones/division-2.jpeg",
+    image: "/images/proyectos/divisiones/division-2.webp",
     description: "Divisiones modernas para espacios de oficina.",
   },
   {
     id: "pc-cristal-templado",
     name: "Sistemas de cristal templado",
     slug: "cristal-templado",
-    image: "/images/proyectos/cristal-templado/cristal-1.jpeg",
+    image: "/images/proyectos/cristal-templado/cristal-1.webp",
     description: "Sistemas de cristal templado de alta seguridad.",
   },
   {
     id: "pc-abatibles",
     name: "Puertas abatibles",
     slug: "abatibles",
-    image: "/images/proyectos/puertas-abatibles/abatible-3.jpeg",
+    image: "/images/proyectos/puertas-abatibles/abatible-3.webp",
     description: "Puertas abatibles de aluminio con diseño premium.",
   },
 ];

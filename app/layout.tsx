@@ -128,7 +128,7 @@ const jsonLd = {
   "@type": "LocalBusiness",
   name: "JABA – Soluciones en Aluminio, Cristal y Carpintería",
   image: `${SITE_URL}/images/og-image.jpg`,
-  logo: `${SITE_URL}/images/logo-negro.png`,
+  logo: `${SITE_URL}/images/logo-negro.webp`,
   description:
     "Empresa líder en Guadalajara con más de 10 años de experiencia en diseño, fabricación e instalación de ventanas, puertas, domos, canceles de baño, fachadas, pasamanos, pergolados y carpintería.",
   url: SITE_URL,
