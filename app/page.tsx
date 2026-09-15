@@ -10,6 +10,7 @@ import SolucionesB2B from "@/src/components/SolucionesB2B/SolucionesB2B";
 import Contacto from "@/src/components/Contacto/Contacto";
 import Footer from "@/src/components/Footer/Footer";
 import WhatsAppButton from "@/src/components/ui/WhatsAppButton";
+import CallButton from "@/src/components/ui/CallButton";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       </main>
       <Footer />
       <WhatsAppButton />
+      <CallButton />
     </>
   );
 }

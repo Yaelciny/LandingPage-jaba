@@ -40,12 +40,12 @@ export default function QuienesSomos() {
           {/* Left: description + services */}
           <AnimatedSection direction="left">
             <div>
-              <p className="mb-8 text-lg leading-relaxed text-graphite">
+              <p className="mb-8 text-lg leading-relaxed text-graphite text-justify">
                 {companyInfo.description}
               </p>
 
               <h3 className="mb-6 text-sm font-bold tracking-widest text-carbon uppercase">
-                Nuestras Soluciones
+                Nuestros Productos
               </h3>
 
               <div className="grid grid-cols-2 gap-3">
@@ -120,7 +120,7 @@ export default function QuienesSomos() {
                     <h4 className="mb-4 text-xl font-bold text-carbon">
                       {tabs.find((t) => t.key === activeTab)?.label}
                     </h4>
-                    <p className="text-base leading-relaxed text-graphite">
+                    <p className="text-base leading-relaxed text-graphite text-justify">
                       {tabContent[activeTab]}
                     </p>
                   </div>

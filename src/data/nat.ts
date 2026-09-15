@@ -143,7 +143,7 @@ export const bannerSlides: BannerSlide[] = [
   {
     id: "banner-2",
     title: "Diseño y Calidad",
-    subtitle: "Más de 10 años de experiencia",
+    subtitle: "Más de 14 años en el mercado",
     description:
       "Fabricamos productos con los más altos estándares de calidad, garantizando diseños vanguardistas y precios accesibles.",
     backgroundImage: "/images/proyectos/fachadas/fachada-20.webp",
@@ -168,14 +168,14 @@ export const jabaSolutions: JabaSolution[] = [
     icon: "award",
     title: "Experiencia",
     description:
-      "Con 10 años de experiencia en el mercado, ofrecemos soluciones a tu medida y de acuerdo a tu proyecto.",
+      "Contamos con más de 30 años de experiencia en el sector y 14 años en el mercado, ofreciendo soluciones a tu medida y de acuerdo a tu proyecto.",
   },
   {
     id: "calidad",
     icon: "shield-check",
     title: "Calidad",
     description:
-      "Fabricamos productos en aluminio, vidrio y carpintería, garantizando precios accesibles y diseños vanguardistas.",
+      "Fabricamos productos en aluminio, carpintería residencial y cristales, garantizando precios accesibles y diseños vanguardistas de alta calidad.",
   },
   {
     id: "garantia",
@@ -298,7 +298,7 @@ export const companyInfo: CompanyInfo = {
   name: "JABA – Soluciones en Aluminio, Cristal y Carpintería",
   tagline: "Diseño, fabricación e instalación",
   description:
-    "Somos una empresa con más de 10 años de experiencia en la Ciudad de Guadalajara. Ofrecemos soluciones integrales en aluminio, vidrio y carpintería de alta calidad para toda clase de proyectos de construcción o remodelaciones.",
+    "Somos una empresa con más de 14 años en el mercado y más de 30 años de experiencia en el sector, ubicados en la Ciudad de Guadalajara. Ofrecemos soluciones integrales en aluminio, carpintería residencial y cristales de alta calidad para toda clase de proyectos de construcción o remodelaciones.",
   mission:
     "Proporcionar a nuestros clientes las mejores opciones del mercado en diseño, fabricación e instalación de aluminio, cristal y carpintería, con materiales de calidad garantizada, precios accesibles y un alto sentido de responsabilidad en los tiempos de entrega.",
   vision:
@@ -419,7 +419,7 @@ export const advantages: Advantage[] = [
   { id: "adv-2", text: "Sistema de Gestión de Calidad", icon: "clipboard-check" },
   { id: "adv-3", text: "Rapidez y seguridad", icon: "zap" },
   { id: "adv-4", text: "Precios competitivos", icon: "trending-down" },
-  { id: "adv-5", text: "Amplia experiencia de +10 años", icon: "calendar" },
+  { id: "adv-5", text: "Más de 30 años de experiencia en el sector", icon: "calendar" },
 ];
 
 export const contactInfo: ContactInfo = {

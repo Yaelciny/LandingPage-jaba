@@ -71,7 +71,7 @@ export default function SolucionesGrid() {
                 <h3 className="mb-3 text-lg font-bold tracking-tight text-carbon">
                   {sol.title}
                 </h3>
-                <p className="text-sm leading-relaxed text-steel">
+                <p className="text-sm leading-relaxed text-steel text-justify">
                   {sol.description}
                 </p>
               </motion.div>
